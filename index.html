@@ -1,13 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            text-align: center;
+        }
+        div {
+            text-align: left;
+        }
+        input[type=checkbox]:checked+div {
+            height: 300px;
+        }
+        div {
+            overflow: hidden;
+            width: 720px;
+            height: 0px;
+            transition-duration: 1s;
+        }
+        #check1 {
+            display: none
+        }
+        #check2 {
+            display: none
+        }
+        th {
+            background-color: darkgray;
+        }
+        label {
+            color: darkturquoise;
+        }
+        h3{
+            color: darkgreen;
+        }
+    </style>
 </head>
 <body>
-    <h1>박재형</h1>
-    <h1>pc에서 수정후 업로드</h1>
+    <center>
+        <table border="1">
+            <caption>
+                <h1>기본정보</h1>
+            </caption>
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>나이</th>
+                    <th>성별</th>
+                    <th>학력</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>박재형</td>
+                    <td>29</td>
+                    <td>남</td>
+                    <td>초대졸</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h1>경력, 자격</h1>
+        <label for="check1">경력</label>
+        <input id="check1" type="checkbox">
+        <div>
+            <h1>경력</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td rowspan="4">경력사항</td>
+                        <th>근무기간</th>
+                        <th>근무부서</th>
+                        <th>담당업무</th>
+                        <th>직위</th>
+                    </tr>
+                    <tr>
+                        <td>2014-04-01 ~ 2015-05-01</td>
+                        <td>생산</td>
+                        <td>오퍼레이터</td>
+                        <td>비정규</td>
+                    </tr>
+                    <tr>
+                        <td>2016-07-01 ~ 2019-04-01</td>
+                        <td>물류</td>
+                        <td>물류이동</td>
+                        <td>사원</td>
+                    </tr>
+                    <tr>
+                        <td>2021-01-01 ~ 2021-02-01</td>
+                        <td>식품</td>
+                        <td>상품진열</td>
+                        <td>기간직</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <br>
+        <label for="check2">자격증</label>
+        <input id="check2" type="checkbox">
+        <div>
+            <h1>자격증</h1>
+            <ul>
+                <li>지원관련 자격증</li>
+                <ul>
+                    <li>컴퓨터 활용능력 1급</li>
+                    <li>오토캐드 2급</li>
+                </ul>
+                <br>
+                <li>일반 자격증</li>
+                <ul>
+                    <li>운전면허 1종보통</li>
+                    <li>지게차 운전기능사</li>
+                </ul>
+            </ul>
+        </div>
+        <br></center>
+        <hr>
+            <h1><a id="home">자기소개</a></h1>
+            <a href="#AAA">지원동기</a>
+            <a href="#BBB">성장과정</a>
+            <a href="#CCC">특기사항</a>
+            <a href="#DDD">기타사항</a>
+            <h3><a id="AAA" href="#home">1.</a>지원동기</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam quibusdam soluta enim saepe. Explicabo nihil quidem expedita quos cumque, ipsam distinctio obcaecati, aperiam consequatur eaque voluptate sapiente temporibus odio, fugit illum eveniet! Suscipit debitis delectus consequuntur molestias nulla porro mollitia odio, excepturi odit laborum ipsam soluta non iste illum repellendus alias sit vero harum repellat itaque, est rem? Numquam tenetur non cumque similique? Optio, quae enim! Ad illum sit at maxime placeat quo est ipsa amet consequatur? Reiciendis consequatur corporis sunt quas, incidunt et minima minus veritatis dignissimos doloribus veniam a aliquam ut totam laboriosam, eveniet voluptatum corrupti quis sit! Iure quaerat corrupti provident explicabo nemo, fugit nihil! Obcaecati accusamus minus laudantium amet dicta ea quo officia, harum ad tempore voluptatibus praesentium dolorum, eius repudiandae quasi illo ut exercitationem asperiores sit fuga? Quam saepe suscipit quibusdam ea perferendis alias, exercitationem eaque explicabo quas architecto earum molestias, repudiandae impedit tempora amet illo libero illum voluptas iusto nihil quasi non optio eveniet dolorem! Doloremque ad quia nostrum ab magnam eligendi ullam aperiam harum odit dolores ipsa sequi tenetur quod consectetur, impedit, adipisci iste, sed autem incidunt. Dicta fugiat quia ipsa excepturi, iure accusantium ex provident magnam, fuga eligendi sint repudiandae? Corrupti expedita quam similique sint, unde maiores perferendis praesentium labore rerum sequi dolores fugiat cum omnis eos atque, beatae esse. Incidunt, aperiam. Asperiores, praesentium. Iure, maxime laudantium ratione sapiente doloremque vitae delectus labore sint quisquam itaque dicta reiciendis aliquam, voluptates asperiores nobis iste dolorem maiores praesentium nostrum eum error nihil accusantium deleniti facilis. Qui quod itaque at distinctio architecto, cupiditate nemo labore alias repellendus est dolores similique tenetur! Nesciunt nisi quidem tenetur voluptate modi? Laudantium minima eveniet incidunt et possimus. Dicta quas nisi soluta, aut explicabo suscipit et. Nobis accusamus incidunt eum, iste alias rem excepturi vel voluptatum sunt nam velit!</p>
+            <h3><a id="BBB" href="#home">2.</a>성장과정</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam quibusdam soluta enim saepe. Explicabo nihil quidem expedita quos cumque, ipsam distinctio obcaecati, aperiam consequatur eaque voluptate sapiente temporibus odio, fugit illum eveniet! Suscipit debitis delectus consequuntur molestias nulla porro mollitia odio, excepturi odit laborum ipsam soluta non iste illum repellendus alias sit vero harum repellat itaque, est rem? Numquam tenetur non cumque similique? Optio, quae enim! Ad illum sit at maxime placeat quo est ipsa amet consequatur? Reiciendis consequatur corporis sunt quas, incidunt et minima minus veritatis dignissimos doloribus veniam a aliquam ut totam laboriosam, eveniet voluptatum corrupti quis sit! Iure quaerat corrupti provident explicabo nemo, fugit nihil! Obcaecati accusamus minus laudantium amet dicta ea quo officia, harum ad tempore voluptatibus praesentium dolorum, eius repudiandae quasi illo ut exercitationem asperiores sit fuga? Quam saepe suscipit quibusdam ea perferendis alias, exercitationem eaque explicabo quas architecto earum molestias, repudiandae impedit tempora amet illo libero illum voluptas iusto nihil quasi non optio eveniet dolorem! Doloremque ad quia nostrum ab magnam eligendi ullam aperiam harum odit dolores ipsa sequi tenetur quod consectetur, impedit, adipisci iste, sed autem incidunt. Dicta fugiat quia ipsa excepturi, iure accusantium ex provident magnam, fuga eligendi sint repudiandae? Corrupti expedita quam similique sint, unde maiores perferendis praesentium labore rerum sequi dolores fugiat cum omnis eos atque, beatae esse. Incidunt, aperiam. Asperiores, praesentium. Iure, maxime laudantium ratione sapiente doloremque vitae delectus labore sint quisquam itaque dicta reiciendis aliquam, voluptates asperiores nobis iste dolorem maiores praesentium nostrum eum error nihil accusantium deleniti facilis. Qui quod itaque at distinctio architecto, cupiditate nemo labore alias repellendus est dolores similique tenetur! Nesciunt nisi quidem tenetur voluptate modi? Laudantium minima eveniet incidunt et possimus. Dicta quas nisi soluta, aut explicabo suscipit et. Nobis accusamus incidunt eum, iste alias rem excepturi vel voluptatum sunt nam velit!</p>
+            <h3><a id="CCC" href="#home">3.</a>특기사항</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam quibusdam soluta enim saepe. Explicabo nihil quidem expedita quos cumque, ipsam distinctio obcaecati, aperiam consequatur eaque voluptate sapiente temporibus odio, fugit illum eveniet! Suscipit debitis delectus consequuntur molestias nulla porro mollitia odio, excepturi odit laborum ipsam soluta non iste illum repellendus alias sit vero harum repellat itaque, est rem? Numquam tenetur non cumque similique? Optio, quae enim! Ad illum sit at maxime placeat quo est ipsa amet consequatur? Reiciendis consequatur corporis sunt quas, incidunt et minima minus veritatis dignissimos doloribus veniam a aliquam ut totam laboriosam, eveniet voluptatum corrupti quis sit! Iure quaerat corrupti provident explicabo nemo, fugit nihil! Obcaecati accusamus minus laudantium amet dicta ea quo officia, harum ad tempore voluptatibus praesentium dolorum, eius repudiandae quasi illo ut exercitationem asperiores sit fuga? Quam saepe suscipit quibusdam ea perferendis alias, exercitationem eaque explicabo quas architecto earum molestias, repudiandae impedit tempora amet illo libero illum voluptas iusto nihil quasi non optio eveniet dolorem! Doloremque ad quia nostrum ab magnam eligendi ullam aperiam harum odit dolores ipsa sequi tenetur quod consectetur, impedit, adipisci iste, sed autem incidunt. Dicta fugiat quia ipsa excepturi, iure accusantium ex provident magnam, fuga eligendi sint repudiandae? Corrupti expedita quam similique sint, unde maiores perferendis praesentium labore rerum sequi dolores fugiat cum omnis eos atque, beatae esse. Incidunt, aperiam. Asperiores, praesentium. Iure, maxime laudantium ratione sapiente doloremque vitae delectus labore sint quisquam itaque dicta reiciendis aliquam, voluptates asperiores nobis iste dolorem maiores praesentium nostrum eum error nihil accusantium deleniti facilis. Qui quod itaque at distinctio architecto, cupiditate nemo labore alias repellendus est dolores similique tenetur! Nesciunt nisi quidem tenetur voluptate modi? Laudantium minima eveniet incidunt et possimus. Dicta quas nisi soluta, aut explicabo suscipit et. Nobis accusamus incidunt eum, iste alias rem excepturi vel voluptatum sunt nam velit!</p>
+            <h3><a id="DDD" href="#home">4.</a>기타사항</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam quibusdam soluta enim saepe. Explicabo nihil quidem expedita quos cumque, ipsam distinctio obcaecati, aperiam consequatur eaque voluptate sapiente temporibus odio, fugit illum eveniet! Suscipit debitis delectus consequuntur molestias nulla porro mollitia odio, excepturi odit laborum ipsam soluta non iste illum repellendus alias sit vero harum repellat itaque, est rem? Numquam tenetur non cumque similique? Optio, quae enim! Ad illum sit at maxime placeat quo est ipsa amet consequatur? Reiciendis consequatur corporis sunt quas, incidunt et minima minus veritatis dignissimos doloribus veniam a aliquam ut totam laboriosam, eveniet voluptatum corrupti quis sit! Iure quaerat corrupti provident explicabo nemo, fugit nihil! Obcaecati accusamus minus laudantium amet dicta ea quo officia, harum ad tempore voluptatibus praesentium dolorum, eius repudiandae quasi illo ut exercitationem asperiores sit fuga? Quam saepe suscipit quibusdam ea perferendis alias, exercitationem eaque explicabo quas architecto earum molestias, repudiandae impedit tempora amet illo libero illum voluptas iusto nihil quasi non optio eveniet dolorem! Doloremque ad quia nostrum ab magnam eligendi ullam aperiam harum odit dolores ipsa sequi tenetur quod consectetur, impedit, adipisci iste, sed autem incidunt. Dicta fugiat quia ipsa excepturi, iure accusantium ex provident magnam, fuga eligendi sint repudiandae? Corrupti expedita quam similique sint, unde maiores perferendis praesentium labore rerum sequi dolores fugiat cum omnis eos atque, beatae esse. Incidunt, aperiam. Asperiores, praesentium. Iure, maxime laudantium ratione sapiente doloremque vitae delectus labore sint quisquam itaque dicta reiciendis aliquam, voluptates asperiores nobis iste dolorem maiores praesentium nostrum eum error nihil accusantium deleniti facilis. Qui quod itaque at distinctio architecto, cupiditate nemo labore alias repellendus est dolores similique tenetur! Nesciunt nisi quidem tenetur voluptate modi? Laudantium minima eveniet incidunt et possimus. Dicta quas nisi soluta, aut explicabo suscipit et. Nobis accusamus incidunt eum, iste alias rem excepturi vel voluptatum sunt nam velit!</p>
 </body>
 </html>
