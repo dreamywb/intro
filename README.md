@@ -1,7 +1,7 @@
 # 제목(메인화면)
 
 
-'''
+''' c#
 
 private string Checked_pageSize()
           {
