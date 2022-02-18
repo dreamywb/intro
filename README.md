@@ -22,6 +22,7 @@
 
 ### 개인
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dreamywb&repo=bookManager_XML)](https://github.com/dreamywb/bookManager_XML)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dreamywb&repo=intro_bootstrap)](https://github.com/dreamywb/intro_bootstrap)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dreamywb&repo=kakao_map_test)](https://github.com/dreamywb/kakao_map_test)
 
